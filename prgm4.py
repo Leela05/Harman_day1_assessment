@@ -1,14 +1,9 @@
-# To accept a string and count the frequency of each vowel
-
-# Read input from the user
-
 string = input("Enter a string:")
+count = 0
+for i in string:
+    if (i == 'a' or i == 'e' or i == 'i' or i == 'o' or i == 'u' or i == 'A' or i == 'E' or i == 'I' or i == 'O' or i == 'U'):
+        count = count + 1
 
-# count - returns the number of occurrences of the substring in the given string
+print("Number of Vowels:")
+print(count)
 
-# Syntax - variablename.count(value)
-print("Count of a:", string.count("a"))
-print("Count of e:", string.count("e"))
-print("Count of i:", string.count("i"))
-print("Count of o:", string.count("o"))
-print("Count of u:", string.count("u"))
