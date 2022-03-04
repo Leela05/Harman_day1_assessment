@@ -1,0 +1,8 @@
+Name = (input("Enter Name:"))
+age = int(input("Enter Name:"))
+Designation = int(input("Enter Name:"))
+salary = int(input("Enter Name:"))
+print(Name)
+print(age)
+print(Designation)
+print(salary)
